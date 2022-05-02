@@ -1,0 +1,40 @@
+body {
+  background: blueviolet;
+  font: normal 15pt Arial;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px black;
+}
+
+div#container-msg{
+  text-align: center;
+}
+
+div#container-img{
+  text-align: center;
+}
+
+img#img{
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  border: solid black 5px;
+  
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
