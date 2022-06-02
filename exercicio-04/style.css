@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.titulo-principal {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.container-img-principal {
+  text-align: center;
+}
+
+.container-img-principal img {
+  width: 400px;
+}
+
+.flex-container {
+  display: flex;
+  margin: 20px 0px;
+  padding: 0px 20px;
+  gap: 10px;
+}
+
+.container-item-txt-lontra {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container-item-veado {
+  width: 25%;
+}
+
+.container-item-veado img {
+  width: 100%;
+}
+
+.container-item-interno {
+  display: flex;
+  gap: 10px;
+}
+
+.container-item-intero-img-lontra {
+  width: 15%;
+}
+
+.container-item-intero-img-lontra img {
+  width: 100%;
+}
+
+.container-item-interno-txt {
+  width: 85%;
+}
+
+p {
+  text-align: justify;
+}

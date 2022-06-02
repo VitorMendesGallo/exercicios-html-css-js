@@ -17,20 +17,19 @@ section {
   box-shadow: 5px 5px 10px black;
 }
 
-div#container-msg{
+div#container-msg {
   text-align: center;
 }
 
-div#container-img{
+div#container-img {
   text-align: center;
 }
 
-img#img{
+img#img {
   width: 400px;
   height: 300px;
   border-radius: 20px;
   border: solid black 5px;
-  
 }
 
 footer {

@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.titulo {
+  width: 98%;
+  margin: 20px auto;
+  text-align: center;
+  background-color: rgb(40, 40, 40);
+  color: white;
+}
+
+.subtitulo {
+  width: 98%;
+  margin: 0px auto;
+  text-align: center;
+  background-color: rgb(255, 253, 157);
+  font-size: 20px;
+}
+
+.container {
+  padding: 20px 60px;
+}
+
+.lista-principal {
+  list-style: none;
+}
+.lista-principal > li {
+  margin: 13px 0px;
+}
+
+.lista-principal .item-destaque {
+  font-weight: bold;
+  font-size: 1.2em;
+  list-style: disc;
+}
+
+.lista-principal .imagem-cafe {
+  width: 250px;
+}
+
+.container-lista {
+  margin: 15px 40px;
+}
+
+.preparo {
+  list-style: decimal;
+}

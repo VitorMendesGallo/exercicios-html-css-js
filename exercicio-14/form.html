@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu formulário</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="titulo-formulario">Formulário de cadastro</h1>
+    <form method="post" class="formulario">
+      <div class="container-formulario">
+        <label for="nome">Nome</label><br />
+        <input type="text" class="form" name="nome" id="nome" required />
+      </div>
+      <div class="container-formulario">
+        <label for="sobrenome">Sobrenome</label><br />
+        <input
+          type="text"
+          class="form"
+          name="sobrenome"
+          id="sobrenome"
+          required
+        />
+      </div>
+      <div class="container-formulario">
+        <label for="nascimento">Data Nascimento</label><br />
+        <input
+          type="date"
+          class="form"
+          name="nascimento"
+          id="nascimento"
+          required
+        />
+      </div>
+      <div class="container-formulario">
+        <label for="email">E-mail</label><br />
+        <input type="email" class="form" name="email" id="email" required />
+      </div>
+      <div class="container-formulario">
+        <label for="telefone">Telefone</label><br />
+        <input
+          type="tel"
+          class="form"
+          name="telefone"
+          id="telefone"
+          required
+          placeholder="24 98856-2565"
+        />
+      </div>
+      <div class="container-formulario">
+        <label for="cpf">CPF</label><br />
+        <input type="text" class="form" name="cpf" id="cpf" required />
+      </div>
+      <div class="container-formulario">
+        <p>Tecnologia de preferência</p>
+        <div class="form-radio">
+          <input
+            type="radio"
+            name="tecnologia-preferencia"
+            class="radio-item"
+            value="HTML"
+            checked
+          />HTML
+          <input
+            type="radio"
+            name="tecnologia-preferencia"
+            class="radio-item"
+            value="CSS"
+          />CSS
+          <input
+            type="radio"
+            name="tecnologia-preferencia"
+            class="radio-item"
+            value="JavaScript"
+          />JavaScript
+        </div>
+      </div>
+      <div class="container-formulario">
+        <label for="area-atuacao">Área de atuação</label><br />
+        <select class="form" name="area-atuacao">
+          <option value="Front-end">Front-end</option>
+          <option value="Back-end">Back-end</option>
+          <option value="Full-Stack">Full-Stack</option>
+        </select>
+      </div>
+      <div class="container-formulario">
+        <label for="nome-usuario">Nome de Usuário</label><br />
+        <input
+          type="text"
+          name="nome-usuario"
+          class="form"
+          id="nome-usuario"
+          required
+        />
+      </div>
+      <div class="container-formulario">
+        <label for="senha">Senha</label><br />
+        <input type="password" name="senha" class="form" id="senha" required />
+      </div>
+      <div class="container-botoes">
+        <input type="submit" value="Enviar" class="botao botao-enviar" />
+        <input type="submit" value="Cancelar" class="botao botao-cancelar" />
+      </div>
+    </form>
+  </body>
+</html>
